@@ -152,7 +152,7 @@
                         "provisionVmAgent": true
                     }
                 },
-                
+                "licenseType": "Windows_Client",
                 "diagnosticsProfile": {
                     "bootDiagnostics": {
                         "enabled": true,
