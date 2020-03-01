@@ -130,9 +130,9 @@
                         }
                     },
                     "imageReference": {
-                        "publisher": "MicrosoftWindowsDesktop",
-                        "offer": "Windows-10",
-                        "sku": "rs4-pro",
+                        "publisher": "MicrosoftWindowsServer",
+                        "offer": "WindowsServer",
+                        "sku": "2012-R2-Datacenter",
                         "version": "latest"
                     }
                 },
@@ -152,7 +152,7 @@
                         "provisionVmAgent": true
                     }
                 },
-                "licenseType": "Windows_Client",
+                
                 "diagnosticsProfile": {
                     "bootDiagnostics": {
                         "enabled": true,
